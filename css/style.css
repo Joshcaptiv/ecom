@@ -1,0 +1,145 @@
+html,body{
+	font-family: roboto;
+}
+ p{
+	    font-size: 17px;
+}
+
+.navbar-brand{
+    padding: 8px 20px;
+}
+.navbar-brand img{
+	margin-top: -10px;
+}
+.navbar-nav{
+	margin-top: 13px;
+}
+.navbar-default{
+	background: none;
+	height: 60px;
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #484848;
+    font-size: 16px;
+    font-weight: 500;
+}
+#header{
+background:#ffd5dd3b;
+padding: 0 0 70px 0;
+}
+.header-text{
+	width: 66%;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 100px;
+}
+.header-text h1{
+	font-weight: 800;
+	font-size: 48px;
+	    color: #484848
+}
+.header-text p{
+	    font-size: 18px;
+}
+.header-text h1 span{
+	color: #e9689c;
+}
+.header-text .btn-primary{
+	padding: 11px 33px;
+    margin-top: 18px;
+    background: linear-gradient(#0066ff , #006280);
+}
+/*shoes section*/
+#casual-shoes{
+	margin-top: 100px;
+}
+.panel-default{
+	padding:18px;
+	border: none;
+    box-shadow: -1px -1px 10px 2px #e5e5e5;
+
+}
+.panel-default .panel-heading{
+	border: none;
+}
+.panel-default .panel-body .btn-primary{
+	margin-top: 20px;
+	padding: 8px 26px;
+	background-color: #FF87B7;
+	border-color: #BCBCBC;
+}
+
+#casual-shoes h1{
+	margin-bottom: 50px;
+	font-weight: 600;
+    color: #484848
+}
+.panel-foot h1{
+color: #161616!important;
+}
+/*Formal shoes section*/
+#formal-shoes{
+	margin-top: 100px
+}
+#formal-shoes .panel .panel-heading{
+	background: none;
+}
+#formal-shoes h1{
+	margin-bottom: 50px;
+	font-weight: 600;
+     color: #484848
+}
+
+/*services section*/
+.service-cols{
+	    box-shadow: 0px -1px 8px 1px #e3e3e3;
+    padding: 2px 15px;
+    margin-bottom: 20px;
+}
+.service-cols .media-left img{
+	    width: 66px;
+    margin-top: 20px;
+}
+.service-cols .media-left{
+	padding: 0 30px 0 0;
+}
+.service-cols .media-body h3{
+	font-size: 20px;
+	font-weight: 800;
+}
+#services{
+	margin-top: 100px;
+}
+
+@media only screen and (max-width: 640px) {
+.header-text{
+	padding: 10px 0 0 0;
+	margin-bottom: 50px;
+}
+.header-img{
+	width: 468px;
+}
+.header-text h1{
+	font-size: 40px;
+}
+.header-text{
+	text-align: center;
+}
+.buy-btn{
+	text-align: right;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	margin-top: 14px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #484848;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    background-color: #484848;
+}
+}
